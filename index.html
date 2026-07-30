@@ -3,34 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="豊田高専 情報工学科のWebシラバスから、目標評価に必要な定期試験の点数を計算します。" />
+    <meta name="description" content="豊田高専5学科のWebシラバスから、目標評価に必要な定期試験の点数を計算します。" />
     <title>高専シラバス 評価プランナー</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="./">
-        <span class="brand-mark" aria-hidden="true">Σ</span>
-        <span><strong>Grade Planner</strong><small>KOSEN SYLLABUS TOOL</small></span>
-      </a>
-      <a class="source-link" id="source-link" href="https://syllabus.kosen-k.go.jp/" target="_blank" rel="noreferrer">公式シラバス ↗</a>
+    <header class="minimal-header">
+      <a class="minimal-brand" href="./"><span aria-hidden="true">Σ</span><strong>Grade Planner</strong></a>
+      <p>2026 · 豊田高専</p>
+      <a id="official-syllabus" class="minimal-source" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=23&amp;department_id=13&amp;year=2026&amp;lang=ja" target="_blank" rel="noreferrer">公式シラバス ↗</a>
     </header>
-
     <main class="catalog-main">
       <section class="catalog-page" aria-labelledby="catalog-title">
-        <div class="catalog-intro">
-          <div>
-            <p class="eyebrow">2026 · 豊田高専 情報工学科</p>
-            <h1 id="catalog-title">科目一覧</h1>
-            <p>単位・履修区分・評価割合を比較して、科目を選ぶと必要な試験得点を計算できます。</p>
+        <h1 id="catalog-title" class="sr-only">科目一覧</h1>
+
+        <div class="catalog-controls">
+        <section class="sheet-settings" aria-label="全科目共通の評価基準">
+          <div class="sheet-settings-title"><strong>評価基準</strong><span>全科目へ適用</span></div>
+          <div id="global-thresholds" class="global-thresholds">
+            <label class="grade-a"><b>A</b><input type="number" min="0" max="100" step="1" value="85" data-grade="A" aria-label="A評価の最低点" /><span>点〜</span></label>
+            <label class="grade-b"><b>B</b><input type="number" min="0" max="100" step="1" value="70" data-grade="B" aria-label="B評価の最低点" /><span>点〜</span></label>
+            <label class="grade-c"><b>C</b><input type="number" min="0" max="100" step="1" value="60" data-grade="C" aria-label="C評価の最低点" /><span>点〜</span></label>
+            <label class="grade-f"><b>F</b><input type="number" min="0" max="100" step="1" value="0" data-grade="F" aria-label="F評価の最低点" /><span>点〜</span></label>
           </div>
-          <div class="catalog-summary">
-            <strong id="total-count">144</strong><span>登録科目</span>
-            <small id="scrape-status">シラバス取得日を確認中</small>
-          </div>
-        </div>
+          <p id="threshold-error" class="threshold-error" role="alert"></p>
+          <p class="sheet-rule">各項目は得点 / 満点で入力 · 最終評価は小数点以下切り捨て</p>
+        </section>
 
         <div class="toolbar catalog-toolbar">
           <label class="search-box">
@@ -38,6 +38,7 @@
             <span class="sr-only">科目名・教員名・科目番号で検索</span>
             <input id="search" type="search" placeholder="科目名・教員名・科目番号で検索" autocomplete="off" />
           </label>
+          <select id="department-filter" aria-label="学科で絞り込み"></select>
           <div id="grade-filter" class="grade-tabs" aria-label="対象学年で絞り込み">
             <button type="button" class="is-active" data-grade="">全学年</button>
             <button type="button" data-grade="1">1年</button><button type="button" data-grade="2">2年</button><button type="button" data-grade="3">3年</button><button type="button" data-grade="4">4年</button><button type="button" data-grade="5">5年</button>
@@ -57,13 +58,21 @@
             <option value="no-exam">試験なし</option>
           </select>
         </div>
+        </div>
 
         <div class="list-summary">
           <p id="data-status" class="data-status" aria-live="polite">シラバスを読み込み中…</p>
-          <p><span class="legend-dot required-dot"></span>必修 <span class="legend-dot must-dot"></span>必履修</p>
+          <div class="list-actions">
+            <p><span class="legend-dot required-dot"></span>必修 <span class="legend-dot must-dot"></span>必履修</p>
+            <label class="sort-control"><span>並び順</span><select id="category-sort" aria-label="専門・一般の並び順">
+              <option value="">標準順</option>
+              <option value="general-first">一般 → 専門</option>
+              <option value="specialized-first">専門 → 一般</option>
+            </select></label>
+          </div>
         </div>
         <div class="course-table-head" aria-hidden="true">
-          <span>科目 / 担当教員</span><span>学年</span><span>学期</span><span>単位</span><span>科目区分</span><span>履修</span><span>評価割合</span><span></span>
+          <span>科目</span><span>学年</span><span>学期</span><span>単位</span><span>専門 / 一般</span><span>履修区分</span><span>得点 / 満点</span><span>定期試験</span><span>必要点</span>
         </div>
         <div id="subjects" class="course-list" aria-live="polite"></div>
         <div id="empty-state" class="empty-state" hidden>
@@ -72,7 +81,6 @@
       </section>
     </main>
 
-    <footer><p>非公式ツールです。最終的な評価方法は担当教員と公式シラバスを確認してください。</p></footer>
     <script type="module" src="/src/app.js"></script>
   </body>
 </html>

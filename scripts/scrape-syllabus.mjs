@@ -1,13 +1,22 @@
 import { load } from 'cheerio';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const OUTPUT = resolve(ROOT, 'src/data/subjects.json');
-const SOURCE_URL = process.env.SYLLABUS_URL
-  ?? 'https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=23&department_id=13&year=2026&lang=ja';
-const ORIGIN = new URL(SOURCE_URL).origin;
+const SCHOOL_ID = '23';
+const SCHOOL_NAME = '豊田工業高等専門学校';
+const ACADEMIC_YEAR = Math.max(2000, Number(process.env.SYLLABUS_YEAR) || 2026);
+const ORIGIN = 'https://syllabus.kosen-k.go.jp';
+const SOURCE_URL = `${ORIGIN}/Pages/PublicDepartments?school_id=${SCHOOL_ID}`;
+const DEPARTMENTS = [
+  { id: '11', name: '機械工学科' },
+  { id: '12', name: '電気・電子システム工学科' },
+  { id: '13', name: '情報工学科' },
+  { id: '14', name: '環境都市工学科' },
+  { id: '15', name: '建築学科' },
+];
 const CONCURRENCY = Math.max(1, Number(process.env.SCRAPE_CONCURRENCY) || 3);
 const REQUEST_GAP_MS = Math.max(0, Number(process.env.SCRAPE_GAP_MS) || 300);
 const USER_AGENT = 'KosenGradePlanner/1.0 (static educational grade calculator; low-frequency build-time fetch)';
@@ -88,6 +97,8 @@ async function parseSubject(entry) {
 
   return {
     ...identity,
+    departmentId: entry.departmentId,
+    departmentName: entry.departmentName,
     name,
     url: entry.url,
     category: categoryText.split('/')[0]?.trim() || '',
@@ -129,39 +140,49 @@ async function runPool(entries) {
 }
 
 async function main() {
-  console.log(`一覧を取得: ${SOURCE_URL}`);
-  const listHtml = await fetchHtml(SOURCE_URL);
-  const $ = load(listHtml);
+  console.log(`${SCHOOL_NAME}の本科5学科を取得します。`);
   const seen = new Set();
   const entries = [];
 
-  $('a.mcc-show[href*="/Pages/PublicSyllabus"], .subject-item a[href*="/Pages/PublicSyllabus"]').each((_, link) => {
-    const href = $(link).attr('href');
-    if (!href) return;
-    const url = new URL(href, ORIGIN).href;
-    if (seen.has(url)) return;
-    seen.add(url);
-    const cells = $(link).closest('tr').children('th,td');
-    entries.push({
-      name: clean($(link).text()),
-      url,
-      enrollment: clean(cells.last().text()),
+  for (const department of DEPARTMENTS) {
+    const url = `${ORIGIN}/Pages/PublicSubjects?school_id=${SCHOOL_ID}&department_id=${department.id}&year=${ACADEMIC_YEAR}&lang=ja`;
+    console.log(`一覧を取得: ${department.name}`);
+    const listHtml = await fetchHtml(url);
+    const $ = load(listHtml);
+    let departmentCount = 0;
+    $('a.mcc-show[href*="/Pages/PublicSyllabus"], .subject-item a[href*="/Pages/PublicSyllabus"]').each((_, link) => {
+      const href = $(link).attr('href');
+      if (!href) return;
+      const subjectUrl = new URL(href, ORIGIN).href;
+      if (seen.has(subjectUrl)) return;
+      seen.add(subjectUrl);
+      const cells = $(link).closest('tr').children('th,td');
+      entries.push({
+        name: clean($(link).text()),
+        url: subjectUrl,
+        enrollment: clean(cells.last().text()),
+        departmentId: department.id,
+        departmentName: department.name,
+      });
+      departmentCount += 1;
     });
-  });
+    if (!departmentCount) throw new Error(`${department.name}の科目リンクが見つかりません。対象サイトのHTML構造を確認してください。`);
+    console.log(`${department.name}: ${departmentCount}科目`);
+  }
 
-  if (!entries.length) throw new Error('科目リンクが見つかりません。対象サイトのHTML構造を確認してください。');
   console.log(`${entries.length}科目を低速並列で取得します。`);
   const { results, failures } = await runPool(entries);
   if (results.length < entries.length * 0.9) {
     throw new Error(`取得成功が${results.length}/${entries.length}件のため、既存データを上書きしません。`);
   }
 
-  const previous = await readFile(OUTPUT, 'utf8').then(JSON.parse).catch(() => ({}));
   const data = {
     sourceUrl: SOURCE_URL,
     scrapedAt: new Date().toISOString(),
-    departmentName: clean($('h1').first().text()) || previous.departmentName || '情報工学科',
-    academicYear: Number(new URL(SOURCE_URL).searchParams.get('year')) || null,
+    schoolId: SCHOOL_ID,
+    schoolName: SCHOOL_NAME,
+    academicYear: ACADEMIC_YEAR,
+    departments: DEPARTMENTS,
     subjects: results,
   };
 
