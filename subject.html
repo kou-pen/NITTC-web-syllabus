@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="シラバスを見ながら、目標評価に必要な定期試験の点数を計算します。" />
+    <title>必要点を計算 | 高専シラバス 評価プランナー</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="subject-page">
+    <header class="site-header compact-header">
+      <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">Σ</span><span><strong>Grade Planner</strong><small>KOSEN SYLLABUS TOOL</small></span></a>
+      <a class="back-link" href="./">← 科目一覧へ</a>
+    </header>
+
+    <main id="subject-app" class="subject-layout">
+      <aside class="calculator-panel">
+        <div class="course-heading">
+          <div class="course-meta" id="course-meta">読み込み中…</div>
+          <h1 id="course-name">科目を読み込み中</h1>
+          <div id="evaluation-chips" class="evaluation-chips"></div>
+        </div>
+
+        <div class="notice compact-notice">
+          <strong>入力前に確認</strong>
+          <p>シラバスの「定期試験」は複数回分の合計の場合があります。今回の試験1回分の割合に直してください。</p>
+        </div>
+
+        <form id="calculator" novalidate>
+          <section class="form-section">
+            <div class="form-section-title"><span>01</span><div><h2>評価基準</h2><p>最終総合点の下限</p></div></div>
+            <div id="thresholds" class="threshold-grid"></div>
+          </section>
+
+          <section class="form-section">
+            <div class="form-section-title"><span>02</span><div><h2>獲得した点</h2><p>確定済みの項目を入力</p></div></div>
+            <div class="known-table-head"><span>項目</span><span>割合</span><span>得点 / 満点</span><span></span></div>
+            <div id="known-rows"></div>
+            <button id="add-row" class="secondary-button" type="button">＋ 項目を追加</button>
+            <p class="field-help">空欄は0点として扱わず、計算から除外します。</p>
+          </section>
+
+          <section class="form-section exam-section">
+            <div class="form-section-title"><span>03</span><div><h2>残りの定期試験</h2><p>今回の試験条件</p></div></div>
+            <div class="field-row three-fields">
+              <label><span>総合評価での割合</span><div class="input-suffix"><input id="exam-weight" type="number" min="0" max="100" step="0.1" inputmode="decimal" required /><b>%</b></div></label>
+              <label><span>試験の満点</span><div class="input-suffix"><input id="exam-max" type="number" min="0.1" step="0.1" value="100" inputmode="decimal" required /><b>点</b></div></label>
+              <label><span>得点刻み</span><div class="input-suffix"><input id="score-step" type="number" min="0.1" step="0.1" value="1" inputmode="decimal" required /><b>点</b></div></label>
+            </div>
+          </section>
+        </form>
+
+        <section class="result-section" aria-labelledby="result-title">
+          <div class="result-heading"><div><p class="eyebrow">RESULT</p><h2 id="result-title">必要な試験得点</h2></div><p>獲得済み <strong id="weighted-total">0</strong> / 100</p></div>
+          <div id="form-error" class="form-error" role="alert" hidden></div>
+          <div id="results" class="results-list"></div>
+          <p class="result-footnote">表示点は得点刻みに合わせて切り上げ。総合点の丸めは行いません。</p>
+        </section>
+      </aside>
+
+      <section class="syllabus-frame-panel">
+        <div class="frame-toolbar">
+          <div><span class="live-dot"></span><strong>公式Webシラバス</strong><small>同じ画面で参照できます</small></div>
+          <a id="open-original" href="https://syllabus.kosen-k.go.jp/" target="_blank" rel="noreferrer">別タブで開く ↗</a>
+        </div>
+        <iframe id="syllabus-frame" title="公式Webシラバス"></iframe>
+        <noscript>このページの計算機を利用するにはJavaScriptを有効にしてください。</noscript>
+      </section>
+    </main>
+    <script type="module" src="/src/subject.js"></script>
+  </body>
+</html>

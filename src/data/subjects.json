@@ -1,0 +1,3980 @@
+{
+  "sourceUrl": "https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=23&department_id=13&year=2026&lang=ja",
+  "scrapedAt": "2026-07-30T05:47:18.611Z",
+  "departmentName": "情報工学科",
+  "academicYear": 2026,
+  "subjects": [
+    {
+      "id": "23-13-01121-2026",
+      "code": "01121",
+      "syllabusYear": 2026,
+      "name": "国語Ⅰ甲A",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01121&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "加藤 彩",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 45
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        },
+        {
+          "name": "小テスト",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "id": "23-13-01122-2026",
+      "code": "01122",
+      "syllabusYear": 2026,
+      "name": "国語Ⅰ乙A",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01122&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "眞野 道子,江口 啓子",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01124-2026",
+      "code": "01124",
+      "syllabusYear": 2026,
+      "name": "地理A",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01124&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙橋 清吾",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01125-2026",
+      "code": "01125",
+      "syllabusYear": 2026,
+      "name": "基礎解析ⅠA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01125&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "吉澤 毅,金坂 尚礼,笠谷 昌弘",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-01126-2026",
+      "code": "01126",
+      "syllabusYear": 2026,
+      "name": "線形数学ⅠA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01126&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙村 明,梅澤 瞭太,金坂 尚礼",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01127-2026",
+      "code": "01127",
+      "syllabusYear": 2026,
+      "name": "物理ⅠA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01127&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "榎本 貴志",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-01128-2026",
+      "code": "01128",
+      "syllabusYear": 2026,
+      "name": "化学ⅠA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01128&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "今 徳義",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-01131-2026",
+      "code": "01131",
+      "syllabusYear": 2026,
+      "name": "英語会話A",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01131&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "M. Bodell,S. Vigrow,山田 慶太,E. Okrand",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "会話演習",
+          "weight": 50
+        },
+        {
+          "name": "多読",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-01134-2026",
+      "code": "01134",
+      "syllabusYear": 2026,
+      "name": "保健体育ⅠA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01134&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "近藤 雅哉",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "スポーツテスト",
+          "weight": 10
+        },
+        {
+          "name": "水泳",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 55
+        },
+        {
+          "name": "保健",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01137-2026",
+      "code": "01137",
+      "syllabusYear": 2026,
+      "name": "英語コミュニケーションⅠA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01137&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "竹野 貴子,新美 徳康",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01138-2026",
+      "code": "01138",
+      "syllabusYear": 2026,
+      "name": "英語表現基礎A",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01138&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "川島 彩那,遠藤 颯馬",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01139-2026",
+      "code": "01139",
+      "syllabusYear": 2026,
+      "name": "公共A",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01139&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "北野 孝志",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 65
+        },
+        {
+          "name": "課題",
+          "weight": 5
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-01221-2026",
+      "code": "01221",
+      "syllabusYear": 2026,
+      "name": "国語Ⅰ甲B",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01221&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "加藤 彩",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 45
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        },
+        {
+          "name": "小テスト",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "id": "23-13-01222-2026",
+      "code": "01222",
+      "syllabusYear": 2026,
+      "name": "国語Ⅰ乙B",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01222&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "眞野 道子,江口 啓子",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01224-2026",
+      "code": "01224",
+      "syllabusYear": 2026,
+      "name": "地理B",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01224&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙橋 清吾",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01225-2026",
+      "code": "01225",
+      "syllabusYear": 2026,
+      "name": "基礎解析ⅠB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01225&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "吉澤 毅,金坂 尚礼,笠谷 昌弘",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-01226-2026",
+      "code": "01226",
+      "syllabusYear": 2026,
+      "name": "線形数学ⅠB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01226&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙村 明,梅澤 瞭太",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01227-2026",
+      "code": "01227",
+      "syllabusYear": 2026,
+      "name": "物理ⅠB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01227&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "榎本 貴志",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-01228-2026",
+      "code": "01228",
+      "syllabusYear": 2026,
+      "name": "化学ⅠB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01228&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "今 徳義",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-01231-2026",
+      "code": "01231",
+      "syllabusYear": 2026,
+      "name": "英語会話B",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01231&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "M. Bodell,S. Vigrow,山田 慶太,E. Okrand",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "会話演習",
+          "weight": 50
+        },
+        {
+          "name": "多読",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-01233-2026",
+      "code": "01233",
+      "syllabusYear": 2026,
+      "name": "保健体育ⅠB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01233&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "加藤 貴英",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "持久走",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 65
+        },
+        {
+          "name": "保健",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01234-2026",
+      "code": "01234",
+      "syllabusYear": 2026,
+      "name": "総合理科",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01234&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "小島 靖男,川瀬 豊",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01236-2026",
+      "code": "01236",
+      "syllabusYear": 2026,
+      "name": "英語コミュニケーションⅠB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01236&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "竹野 貴子,新美 徳康",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01237-2026",
+      "code": "01237",
+      "syllabusYear": 2026,
+      "name": "英語表現基礎B",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01237&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "川島 彩那,遠藤 颯馬",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-01238-2026",
+      "code": "01238",
+      "syllabusYear": 2026,
+      "name": "公共B",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=01238&year=2026&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "佐々木 陽平",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-31111-2026",
+      "code": "31111",
+      "syllabusYear": 2026,
+      "name": "コンピュータリテラシ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=31111&year=2026&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "早坂 太一",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "課題",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "id": "23-13-31112-2026",
+      "code": "31112",
+      "syllabusYear": 2026,
+      "name": "情報技術概論",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=31112&year=2026&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "早坂 太一",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-31113-2026",
+      "code": "31113",
+      "syllabusYear": 2026,
+      "name": "情報工学ゼミⅠ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=31113&year=2026&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "木村 勉,江﨑 信行,平野 学,鈴木 誉久,都築 啓太,三浦 哲平,八十島 亘宏",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "課題",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "id": "23-13-31114-2026",
+      "code": "31114",
+      "syllabusYear": 2026,
+      "name": "情報基礎",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=31114&year=2026&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "安藤 浩哉",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "id": "23-13-31211-2026",
+      "code": "31211",
+      "syllabusYear": 2026,
+      "name": "プログラミングⅠ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=31211&year=2026&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "八十島 亘宏",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "小テスト",
+          "weight": 20
+        },
+        {
+          "name": "プログラミング演習課題",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-31213-2026",
+      "code": "31213",
+      "syllabusYear": 2026,
+      "name": "数理工学演習Ⅰ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=31213&year=2026&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "鈴木 誉久",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-02101-2025",
+      "code": "02101",
+      "syllabusYear": 2025,
+      "name": "保健体育ⅡA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02101&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙津 浩彰",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "スポーツテスト",
+          "weight": 10
+        },
+        {
+          "name": "水泳",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 55
+        },
+        {
+          "name": "保健",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-02121-2025",
+      "code": "02121",
+      "syllabusYear": 2025,
+      "name": "国語ⅡA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02121&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "山口 比砂",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 45
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        },
+        {
+          "name": "小テスト",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "id": "23-13-02123-2025",
+      "code": "02123",
+      "syllabusYear": 2025,
+      "name": "基礎解析ⅡA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02123&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "髙村 明,金坂 尚礼,笠谷 昌弘",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-02124-2025",
+      "code": "02124",
+      "syllabusYear": 2025,
+      "name": "線形数学ⅡA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02124&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "梅澤 瞭太",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-02125-2025",
+      "code": "02125",
+      "syllabusYear": 2025,
+      "name": "物理ⅡA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02125&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "箭内 将大",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-02126-2025",
+      "code": "02126",
+      "syllabusYear": 2025,
+      "name": "化学ⅡA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02126&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "今 徳義,篠原 浩美",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-02129-2025",
+      "code": "02129",
+      "syllabusYear": 2025,
+      "name": "英語表現A",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02129&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "山田 慶太,浅井 晴美",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-02130-2025",
+      "code": "02130",
+      "syllabusYear": 2025,
+      "name": "歴史A",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02130&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "京極 俊明,早坂 泰行,望月 秀人",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "id": "23-13-02131-2025",
+      "code": "02131",
+      "syllabusYear": 2025,
+      "name": "英語コミュニケーションⅡA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02131&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "竹野 貴子,岡田 百合",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-02201-2025",
+      "code": "02201",
+      "syllabusYear": 2025,
+      "name": "保健体育ⅡB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02201&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙津 浩彰",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "持久走",
+          "weight": 15
+        },
+        {
+          "name": "保健課題",
+          "weight": 20
+        },
+        {
+          "name": "実技課題",
+          "weight": 65
+        }
+      ]
+    },
+    {
+      "id": "23-13-02221-2025",
+      "code": "02221",
+      "syllabusYear": 2025,
+      "name": "国語ⅡB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02221&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "山口 比砂",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 45
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        },
+        {
+          "name": "小テスト",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "id": "23-13-02223-2025",
+      "code": "02223",
+      "syllabusYear": 2025,
+      "name": "基礎解析ⅡB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02223&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "髙村 明,金坂 尚礼,笠谷 昌弘",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-02224-2025",
+      "code": "02224",
+      "syllabusYear": 2025,
+      "name": "線形数学ⅡB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02224&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "梅澤 瞭太",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-02225-2025",
+      "code": "02225",
+      "syllabusYear": 2025,
+      "name": "物理ⅡB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02225&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "箭内 将大",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-02226-2025",
+      "code": "02226",
+      "syllabusYear": 2025,
+      "name": "物理実験",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02226&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "榎本 貴志,箭内 将大,小山 暁,今 徳義,篠原 浩美",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "課題",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "id": "23-13-02227-2025",
+      "code": "02227",
+      "syllabusYear": 2025,
+      "name": "化学ⅡB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02227&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "篠原 浩美",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-02230-2025",
+      "code": "02230",
+      "syllabusYear": 2025,
+      "name": "英語表現B",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02230&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "遠藤 颯馬,川島 彩那,浅井 晴美",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "会話演習",
+          "weight": 50
+        },
+        {
+          "name": "多読",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-02233-2025",
+      "code": "02233",
+      "syllabusYear": 2025,
+      "name": "歴史B",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02233&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "京極 俊明,早坂 泰行",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "id": "23-13-02234-2025",
+      "code": "02234",
+      "syllabusYear": 2025,
+      "name": "英語コミュニケーションⅡB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=02234&year=2025&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "竹野 貴子,岡田 百合",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-32111-2025",
+      "code": "32111",
+      "syllabusYear": 2025,
+      "name": "プログラミングⅡＡ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=32111&year=2025&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "江﨑 信行",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 65
+        },
+        {
+          "name": "課題",
+          "weight": 35
+        }
+      ]
+    },
+    {
+      "id": "23-13-32112-2025",
+      "code": "32112",
+      "syllabusYear": 2025,
+      "name": "ディジタル回路ⅠＡ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=32112&year=2025&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "平野 学",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-32115-2025",
+      "code": "32115",
+      "syllabusYear": 2025,
+      "name": "回路理論Ⅰ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=32115&year=2025&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "都築 啓太",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 40
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "id": "23-13-32126-2025",
+      "code": "32126",
+      "syllabusYear": 2025,
+      "name": "工学実験ⅠＡ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=32126&year=2025&lang=ja",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "八十島 亘宏,都築 啓太",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "レポート",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "id": "23-13-32211-2025",
+      "code": "32211",
+      "syllabusYear": 2025,
+      "name": "プログラミングⅡＢ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=32211&year=2025&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "三浦 哲平",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 65
+        },
+        {
+          "name": "課題",
+          "weight": 35
+        }
+      ]
+    },
+    {
+      "id": "23-13-32212-2025",
+      "code": "32212",
+      "syllabusYear": 2025,
+      "name": "ディジタル回路ⅠＢ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=32212&year=2025&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "木村 勉",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 35
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "id": "23-13-32215-2025",
+      "code": "32215",
+      "syllabusYear": 2025,
+      "name": "数理工学演習Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=32215&year=2025&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "安藤 浩哉",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-32226-2025",
+      "code": "32226",
+      "syllabusYear": 2025,
+      "name": "工学実験ⅠＢ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=32226&year=2025&lang=ja",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "江﨑 信行,八十島 亘宏",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "レポート",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "id": "23-13-03101-2024",
+      "code": "03101",
+      "syllabusYear": 2024,
+      "name": "保健体育ⅢA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03101&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "加藤 貴英",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "スポーツテスト",
+          "weight": 10
+        },
+        {
+          "name": "水泳",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 55
+        },
+        {
+          "name": "保健",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-03121-2024",
+      "code": "03121",
+      "syllabusYear": 2024,
+      "name": "国語ⅢA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03121&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "眞野 道子,谷 信吾",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-03122-2024",
+      "code": "03122",
+      "syllabusYear": 2024,
+      "name": "歴史ⅡA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03122&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "京極 俊明",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "id": "23-13-03123-2024",
+      "code": "03123",
+      "syllabusYear": 2024,
+      "name": "基礎解析Ⅲ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03123&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "稲吉 凌",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-03124-2024",
+      "code": "03124",
+      "syllabusYear": 2024,
+      "name": "基礎解析Ⅳ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03124&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "勝谷 浩明",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-03125-2024",
+      "code": "03125",
+      "syllabusYear": 2024,
+      "name": "化学Ⅲ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03125&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "篠原 浩美",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-03127-2024",
+      "code": "03127",
+      "syllabusYear": 2024,
+      "name": "英語講読ⅢA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03127&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "遠藤 颯馬",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題・小テスト",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-03128-2024",
+      "code": "03128",
+      "syllabusYear": 2024,
+      "name": "科学英語基礎ⅠA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03128&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "山田 慶太,新美 徳康",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "Examination",
+          "weight": 50
+        },
+        {
+          "name": "Presentation",
+          "weight": 30
+        },
+        {
+          "name": "Task",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-03201-2024",
+      "code": "03201",
+      "syllabusYear": 2024,
+      "name": "確率",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03201&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "稲吉 凌,伊藤 裕貴",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "中間試験",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-03202-2024",
+      "code": "03202",
+      "syllabusYear": 2024,
+      "name": "保健体育ⅢB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03202&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "近藤 雅哉",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "持久走",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 65
+        },
+        {
+          "name": "保健",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-03221-2024",
+      "code": "03221",
+      "syllabusYear": 2024,
+      "name": "国語ⅢB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03221&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "狩野 一三,谷 信吾",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-03222-2024",
+      "code": "03222",
+      "syllabusYear": 2024,
+      "name": "歴史ⅡB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03222&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "京極 俊明",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "id": "23-13-03224-2024",
+      "code": "03224",
+      "syllabusYear": 2024,
+      "name": "微分方程式",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03224&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "勝谷 浩明,髙村 明",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-03227-2024",
+      "code": "03227",
+      "syllabusYear": 2024,
+      "name": "英語講読ⅢB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03227&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "遠藤 颯馬",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題・小テスト",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-03228-2024",
+      "code": "03228",
+      "syllabusYear": 2024,
+      "name": "科学英語基礎ⅠB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03228&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "山田 慶太,新美 徳康",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "Examination",
+          "weight": 50
+        },
+        {
+          "name": "Presentation",
+          "weight": 30
+        },
+        {
+          "name": "Task",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-03229-2024",
+      "code": "03229",
+      "syllabusYear": 2024,
+      "name": "倫理",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03229&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "北野 孝志",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-03351-2024",
+      "code": "03351",
+      "syllabusYear": 2024,
+      "name": "日本事情",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03351&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 4,
+      "teachers": "眞野 道子",
+      "yearLevel": 3,
+      "term": "通年",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 30
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-03352-2024",
+      "code": "03352",
+      "syllabusYear": 2024,
+      "name": "日本語Ⅰ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=03352&year=2024&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 4,
+      "teachers": "伊藤 亜希子",
+      "yearLevel": 3,
+      "term": "通年",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 25
+        },
+        {
+          "name": "小テスト",
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "id": "23-13-33111-2024",
+      "code": "33111",
+      "syllabusYear": 2024,
+      "name": "応用物理学A",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33111&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "小山 暁",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-33114-2024",
+      "code": "33114",
+      "syllabusYear": 2024,
+      "name": "ディジタル回路Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33114&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "木村 勉",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-33115-2024",
+      "code": "33115",
+      "syllabusYear": 2024,
+      "name": "回路理論Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33115&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "鈴木 誉久",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-33117-2024",
+      "code": "33117",
+      "syllabusYear": 2024,
+      "name": "工学実験Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33117&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "鈴木 誉久",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "レポート",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "id": "23-13-33118-2024",
+      "code": "33118",
+      "syllabusYear": 2024,
+      "name": "物理Ⅲ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33118&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "川瀬 豊",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-33119-2024",
+      "code": "33119",
+      "syllabusYear": 2024,
+      "name": "アルゴリズムとデータ構造A",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33119&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "三浦 哲平",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 20
+        },
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-33120-2024",
+      "code": "33120",
+      "syllabusYear": 2024,
+      "name": "数理工学演習Ⅲ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33120&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "江﨑 信行",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-33211-2024",
+      "code": "33211",
+      "syllabusYear": 2024,
+      "name": "応用物理学B",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33211&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "小山 暁",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-33217-2024",
+      "code": "33217",
+      "syllabusYear": 2024,
+      "name": "エンジニアリングデザインⅠ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33217&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "三浦 哲平,鈴木 誉久",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "課題",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "id": "23-13-33218-2024",
+      "code": "33218",
+      "syllabusYear": 2024,
+      "name": "アルゴリズムとデータ構造B",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33218&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "江﨑 信行",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 25
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "id": "23-13-33219-2024",
+      "code": "33219",
+      "syllabusYear": 2024,
+      "name": "コンピュータ工学",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33219&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "早坂 太一",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 40
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "id": "23-13-33220-2024",
+      "code": "33220",
+      "syllabusYear": 2024,
+      "name": "過渡現象論",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=33220&year=2024&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "安藤 浩哉",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-04102-2023",
+      "code": "04102",
+      "syllabusYear": 2023,
+      "name": "保健体育ⅣA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04102&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "土井 颯一郎",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "スポーツテスト",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 85
+        }
+      ]
+    },
+    {
+      "id": "23-13-04108-2023",
+      "code": "04108",
+      "syllabusYear": 2023,
+      "name": "哲学Ⅰ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04108&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "北野 孝志",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-04110-2023",
+      "code": "04110",
+      "syllabusYear": 2023,
+      "name": "現代社会学Ⅰ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04110&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "髙橋 清吾",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題点",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-04111-2023",
+      "code": "04111",
+      "syllabusYear": 2023,
+      "name": "経済学Ⅰ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04111&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "申 成秀",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-04112-2023",
+      "code": "04112",
+      "syllabusYear": 2023,
+      "name": "法学Ⅰ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04112&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "大矢 武史",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "小テスト",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-04114-2023",
+      "code": "04114",
+      "syllabusYear": 2023,
+      "name": "英語Ⅰ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04114&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "川島 彩那,出嶋 真由美",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-04125-2023",
+      "code": "04125",
+      "syllabusYear": 2023,
+      "name": "科学英語基礎ⅡA",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04125&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "新美 徳康,竹野 貴子,竹多 亮子,出嶋 真由美",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-04202-2023",
+      "code": "04202",
+      "syllabusYear": 2023,
+      "name": "保健体育ⅣB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04202&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "土井 颯一郎",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "持久走",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 85
+        }
+      ]
+    },
+    {
+      "id": "23-13-04207-2023",
+      "code": "04207",
+      "syllabusYear": 2023,
+      "name": "日本語表現",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04207&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "加藤 彩,狩野 一三",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "小テスト",
+          "weight": 20
+        },
+        {
+          "name": "課題",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-04208-2023",
+      "code": "04208",
+      "syllabusYear": 2023,
+      "name": "哲学Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04208&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "北野 孝志",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-04210-2023",
+      "code": "04210",
+      "syllabusYear": 2023,
+      "name": "現代社会学Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04210&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "髙橋 清吾",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-04211-2023",
+      "code": "04211",
+      "syllabusYear": 2023,
+      "name": "経済学Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04211&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "長坂 高男",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-04212-2023",
+      "code": "04212",
+      "syllabusYear": 2023,
+      "name": "法学Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04212&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "六鹿 竜輝",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-04214-2023",
+      "code": "04214",
+      "syllabusYear": 2023,
+      "name": "物理特論",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04214&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "川瀬 豊",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-04215-2023",
+      "code": "04215",
+      "syllabusYear": 2023,
+      "name": "化学特論",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04215&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "篠原 浩美",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-04216-2023",
+      "code": "04216",
+      "syllabusYear": 2023,
+      "name": "数学特論",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04216&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "勝谷 浩明,笠井 剛",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 35
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "id": "23-13-04225-2023",
+      "code": "04225",
+      "syllabusYear": 2023,
+      "name": "科学英語基礎ⅡB",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04225&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "新美 徳康,出嶋 真由美",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-04351-2023",
+      "code": "04351",
+      "syllabusYear": 2023,
+      "name": "日本語Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=04351&year=2023&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "伊藤 亜希子",
+      "yearLevel": 4,
+      "term": "通年",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 25
+        },
+        {
+          "name": "小テスト",
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "id": "23-13-34116-2023",
+      "code": "34116",
+      "syllabusYear": 2023,
+      "name": "信号解析",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34116&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "安藤 浩哉",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-34118-2023",
+      "code": "34118",
+      "syllabusYear": 2023,
+      "name": "エンジニアリングデザインⅡ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34118&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "平野 学",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "課題",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "id": "23-13-34132-2023",
+      "code": "34132",
+      "syllabusYear": 2023,
+      "name": "電気磁気学",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34132&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "都築 啓太",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 40
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "id": "23-13-34133-2023",
+      "code": "34133",
+      "syllabusYear": 2023,
+      "name": "解析学A",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34133&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "齊藤 清美",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "id": "23-13-34134-2023",
+      "code": "34134",
+      "syllabusYear": 2023,
+      "name": "オブジェクト指向プログラミング",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34134&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "江﨑 信行",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 40
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "id": "23-13-34135-2023",
+      "code": "34135",
+      "syllabusYear": 2023,
+      "name": "コンピュータアーキテクチャⅠ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34135&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "木村 勉",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-34136-2023",
+      "code": "34136",
+      "syllabusYear": 2023,
+      "name": "情報ネットワーク",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34136&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "平野 学",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-34137-2023",
+      "code": "34137",
+      "syllabusYear": 2023,
+      "name": "システムプログラム",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34137&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "八十島 亘宏",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-34213-2023",
+      "code": "34213",
+      "syllabusYear": 2023,
+      "name": "ソフトウェア設計",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34213&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "加藤 憲昭",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-34218-2023",
+      "code": "34218",
+      "syllabusYear": 2023,
+      "name": "情報工学ゼミⅡ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34218&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "木村 勉,安藤 浩哉,早坂 太一,江﨑 信行,平野 学,鈴木 誉久,都築 啓太,三浦 哲平,八十島 亘宏",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "最終発表",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-34233-2023",
+      "code": "34233",
+      "syllabusYear": 2023,
+      "name": "解析学B",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34233&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "笠井 剛",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "id": "23-13-34234-2023",
+      "code": "34234",
+      "syllabusYear": 2023,
+      "name": "コンピュータアーキテクチャⅡ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34234&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "木村 勉",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 30
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-34235-2023",
+      "code": "34235",
+      "syllabusYear": 2023,
+      "name": "通信工学",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34235&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "平野 学",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-34236-2023",
+      "code": "34236",
+      "syllabusYear": 2023,
+      "name": "サイバーセキュリティ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34236&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "平野 学",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-34237-2023",
+      "code": "34237",
+      "syllabusYear": 2023,
+      "name": "数理工学演習Ⅳ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34237&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "安藤 浩哉",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 80
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-34238-2023",
+      "code": "34238",
+      "syllabusYear": 2023,
+      "name": "知能メディア処理",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34238&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "早坂 太一",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "id": "23-13-34312-2023",
+      "code": "34312",
+      "syllabusYear": 2023,
+      "name": "校外実習",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=34312&year=2023&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "平野 学",
+      "yearLevel": 4,
+      "term": "通年",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "実習報告書",
+          "weight": 70
+        },
+        {
+          "name": "実習報告会発表",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-05102-2022",
+      "code": "05102",
+      "syllabusYear": 2022,
+      "name": "保健体育ⅤＡ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=05102&year=2022&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙津 浩彰,加藤 貴英,近藤 雅哉,土井 颯一郎",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "スポーツテスト",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 85
+        }
+      ]
+    },
+    {
+      "id": "23-13-05104-2022",
+      "code": "05104",
+      "syllabusYear": 2022,
+      "name": "文学特論",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=05104&year=2022&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "加藤 彩",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-05108-2022",
+      "code": "05108",
+      "syllabusYear": 2022,
+      "name": "社会科学特論Ⅰ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=05108&year=2022&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "申 成秀",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-05109-2022",
+      "code": "05109",
+      "syllabusYear": 2022,
+      "name": "人文科学特論Ⅰ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=05109&year=2022&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "髙橋 清吾",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題点",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "id": "23-13-05110-2022",
+      "code": "05110",
+      "syllabusYear": 2022,
+      "name": "英語Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=05110&year=2022&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "遠藤 颯馬",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 80
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-05201-2022",
+      "code": "05201",
+      "syllabusYear": 2022,
+      "name": "保健体育ⅤＢ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=05201&year=2022&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙津 浩彰,加藤 貴英,近藤 雅哉,土井 颯一郎",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "持久走",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 85
+        }
+      ]
+    },
+    {
+      "id": "23-13-05208-2022",
+      "code": "05208",
+      "syllabusYear": 2022,
+      "name": "社会科学特論Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=05208&year=2022&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "松山 聡史",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "小レポート",
+          "weight": 25
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "id": "23-13-05209-2022",
+      "code": "05209",
+      "syllabusYear": 2022,
+      "name": "人文科学特論Ⅱ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=05209&year=2022&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "北野 孝志",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-05210-2022",
+      "code": "05210",
+      "syllabusYear": 2022,
+      "name": "英語Ⅲ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=05210&year=2022&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "川島 彩那",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 80
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-05211-2022",
+      "code": "05211",
+      "syllabusYear": 2022,
+      "name": "ドイツ語",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=05211&year=2022&lang=ja",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "渋谷 歩",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "小テスト",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-35111-2022",
+      "code": "35111",
+      "syllabusYear": 2022,
+      "name": "統計学",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=35111&year=2022&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "早坂 太一",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-35113-2022",
+      "code": "35113",
+      "syllabusYear": 2022,
+      "name": "コンピュータシステム設計",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=35113&year=2022&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "木村 勉",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 30
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "23-13-35131-2022",
+      "code": "35131",
+      "syllabusYear": 2022,
+      "name": "プログラミング言語論",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=35131&year=2022&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "鈴木 洸輔",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-35132-2022",
+      "code": "35132",
+      "syllabusYear": 2022,
+      "name": "形式言語論",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=35132&year=2022&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "早坂 太一",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 40
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "id": "23-13-35133-2022",
+      "code": "35133",
+      "syllabusYear": 2022,
+      "name": "情報工学ゼミⅢ",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=35133&year=2022&lang=ja",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "安藤 浩哉,木村 勉,早坂 太一,江﨑 信行,平野 学,鈴木 誉久,都築 啓太,三浦 哲平,八十島 亘宏",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "最終発表",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": "23-13-35134-2022",
+      "code": "35134",
+      "syllabusYear": 2022,
+      "name": "電磁波工学",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=35134&year=2022&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "安藤 浩哉",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 80
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-35212-2022",
+      "code": "35212",
+      "syllabusYear": 2022,
+      "name": "情報理論",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=35212&year=2022&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "山本 一公",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-35231-2022",
+      "code": "35231",
+      "syllabusYear": 2022,
+      "name": "制御工学",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=35231&year=2022&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "安藤 浩哉",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 80
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": "23-13-35232-2022",
+      "code": "35232",
+      "syllabusYear": 2022,
+      "name": "離散数学",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=35232&year=2022&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "早坂 太一",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 40
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "id": "23-13-35233-2022",
+      "code": "35233",
+      "syllabusYear": 2022,
+      "name": "数値解析",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=35233&year=2022&lang=ja",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "江﨑 信行",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 40
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "id": "23-13-35312-2022",
+      "code": "35312",
+      "syllabusYear": 2022,
+      "name": "卒業研究",
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=13&subject_code=35312&year=2022&lang=ja",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 10,
+      "teachers": "三浦 哲平,安藤 浩哉,木村 勉,早坂 太一,江﨑 信行,平野 学,鈴木 誉久,都築 啓太,八十島 亘宏",
+      "yearLevel": 5,
+      "term": "通年",
+      "weeklyHours": 10,
+      "evaluation": [
+        {
+          "name": "卒業論文",
+          "weight": 50
+        },
+        {
+          "name": "最終発表",
+          "weight": 30
+        },
+        {
+          "name": "中間発表",
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}
