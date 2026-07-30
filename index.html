@@ -18,35 +18,38 @@
       <a class="source-link" id="source-link" href="https://syllabus.kosen-k.go.jp/" target="_blank" rel="noreferrer">公式シラバス ↗</a>
     </header>
 
-    <main>
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">2026 · 豊田高専 情報工学科</p>
-          <h1>あと何点で、<br /><span>A評価に届く？</span></h1>
-          <p class="hero-lead">シラバスの評価割合をもとに、残りの定期試験で必要な点数をすばやく逆算します。</p>
-        </div>
-        <div class="hero-orbit" aria-hidden="true">
-          <div class="score-disc"><strong>80</strong><span>A LINE</span></div>
-          <div class="orbit-label orbit-label-one">課題 35%</div>
-          <div class="orbit-label orbit-label-two">試験 65%</div>
-        </div>
-      </section>
-
-      <section class="catalog-section" aria-labelledby="catalog-title">
-        <div class="section-heading">
-          <div><p class="eyebrow">SUBJECTS</p><h2 id="catalog-title">科目を選ぶ</h2></div>
-          <p id="data-status" class="data-status" aria-live="polite">シラバスを読み込み中…</p>
+    <main class="catalog-main">
+      <section class="catalog-page" aria-labelledby="catalog-title">
+        <div class="catalog-intro">
+          <div>
+            <p class="eyebrow">2026 · 豊田高専 情報工学科</p>
+            <h1 id="catalog-title">科目一覧</h1>
+            <p>単位・履修区分・評価割合を比較して、科目を選ぶと必要な試験得点を計算できます。</p>
+          </div>
+          <div class="catalog-summary">
+            <strong id="total-count">144</strong><span>登録科目</span>
+            <small id="scrape-status">シラバス取得日を確認中</small>
+          </div>
         </div>
 
-        <div class="toolbar">
+        <div class="toolbar catalog-toolbar">
           <label class="search-box">
             <span aria-hidden="true">⌕</span>
             <span class="sr-only">科目名・教員名・科目番号で検索</span>
             <input id="search" type="search" placeholder="科目名・教員名・科目番号で検索" autocomplete="off" />
           </label>
-          <select id="grade-filter" aria-label="対象学年で絞り込み">
-            <option value="">全学年</option>
-            <option value="1">1年</option><option value="2">2年</option><option value="3">3年</option><option value="4">4年</option><option value="5">5年</option>
+          <div id="grade-filter" class="grade-tabs" aria-label="対象学年で絞り込み">
+            <button type="button" class="is-active" data-grade="">全学年</button>
+            <button type="button" data-grade="1">1年</button><button type="button" data-grade="2">2年</button><button type="button" data-grade="3">3年</button><button type="button" data-grade="4">4年</button><button type="button" data-grade="5">5年</button>
+          </div>
+          <select id="term-filter" aria-label="学期で絞り込み">
+            <option value="">全学期</option>
+          </select>
+          <select id="requirement-filter" aria-label="履修区分で絞り込み">
+            <option value="">全履修区分</option>
+            <option value="required">必修</option>
+            <option value="must-take">必履修</option>
+            <option value="elective">選択</option>
           </select>
           <select id="exam-filter" aria-label="試験の有無で絞り込み">
             <option value="">すべての評価方式</option>
@@ -55,7 +58,14 @@
           </select>
         </div>
 
-        <div id="subjects" class="subject-grid" aria-live="polite"></div>
+        <div class="list-summary">
+          <p id="data-status" class="data-status" aria-live="polite">シラバスを読み込み中…</p>
+          <p><span class="legend-dot required-dot"></span>必修 <span class="legend-dot must-dot"></span>必履修</p>
+        </div>
+        <div class="course-table-head" aria-hidden="true">
+          <span>科目 / 担当教員</span><span>学年</span><span>学期</span><span>単位</span><span>科目区分</span><span>履修</span><span>評価割合</span><span></span>
+        </div>
+        <div id="subjects" class="course-list" aria-live="polite"></div>
         <div id="empty-state" class="empty-state" hidden>
           <span>⌕</span><h3>該当する科目がありません</h3><p>検索条件を変えてみてください。</p>
         </div>

@@ -21,6 +21,7 @@ const elements = {
   error: document.querySelector('#form-error'),
   frame: document.querySelector('#syllabus-frame'),
   original: document.querySelector('#open-original'),
+  settingsSummary: document.querySelector('#settings-summary'),
 };
 
 if (!subject) {
@@ -85,6 +86,10 @@ function addKnownRow(values) {
   row.querySelector('.known-weight').value = values.weight ?? '';
   row.querySelector('.known-score').value = values.score ?? '';
   row.querySelector('.known-max').value = values.max ?? 100;
+  if (values.name && values.weight !== '') {
+    row.querySelector('.known-name').readOnly = true;
+    row.querySelector('.known-weight').readOnly = true;
+  }
   row.querySelector('.remove-row').addEventListener('click', () => {
     row.remove();
     update();
@@ -127,6 +132,7 @@ function update() {
   const examWeight = Number(elements.examWeight.value);
   const examMax = Number(elements.examMax.value);
   const step = Number(elements.step.value);
+  elements.settingsSummary.textContent = `A ${formatNumber(thresholds[0]?.value)} · B ${formatNumber(thresholds[1]?.value)} · C ${formatNumber(thresholds[2]?.value)} ／ 試験 ${formatNumber(examWeight)}%・${formatNumber(examMax)}点`;
   let error = rows.validationError || validateThresholds(thresholds);
 
   if (!Number.isFinite(examWeight) || examWeight < 0 || examWeight > 100 || !Number.isFinite(examMax) || examMax <= 0 || !Number.isFinite(step) || step <= 0) {

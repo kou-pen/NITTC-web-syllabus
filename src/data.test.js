@@ -25,3 +25,8 @@ test('catalog preserves mixed syllabus years from the official list', () => {
   const years = [...new Set(data.subjects.map((subject) => subject.syllabusYear))].sort();
   assert.deepEqual(years, [2022, 2023, 2024, 2025, 2026]);
 });
+
+test('catalog includes course and enrollment requirements', () => {
+  assert.ok(data.subjects.some((subject) => subject.selection === '必修'));
+  assert.ok(data.subjects.some((subject) => subject.enrollment === '必履修'));
+});

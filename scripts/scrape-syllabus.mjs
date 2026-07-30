@@ -92,6 +92,7 @@ async function parseSubject(entry) {
     url: entry.url,
     category: categoryText.split('/')[0]?.trim() || '',
     selection: categoryText.split('/')[1]?.trim() || '',
+    enrollment: entry.enrollment,
     creditType: creditsText.split(':')[0]?.trim() || '',
     credits: parseNumber(creditsText),
     teachers: findField($, '担当教員'),
@@ -140,7 +141,12 @@ async function main() {
     const url = new URL(href, ORIGIN).href;
     if (seen.has(url)) return;
     seen.add(url);
-    entries.push({ name: clean($(link).text()), url });
+    const cells = $(link).closest('tr').children('th,td');
+    entries.push({
+      name: clean($(link).text()),
+      url,
+      enrollment: clean(cells.last().text()),
+    });
   });
 
   if (!entries.length) throw new Error('科目リンクが見つかりません。対象サイトのHTML構造を確認してください。');
