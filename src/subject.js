@@ -12,7 +12,7 @@ const elements = {
   chips: document.querySelector('#evaluation-chips'),
   thresholds: document.querySelector('#thresholds'),
   knownRows: document.querySelector('#known-rows'),
-  addRow: document.querySelector('#add-row'),
+  targetComponent: document.querySelector('#target-component'),
   examWeight: document.querySelector('#exam-weight'),
   examMax: document.querySelector('#exam-max'),
   step: document.querySelector('#score-step'),
@@ -56,20 +56,27 @@ function initialize() {
     elements.thresholds.append(label);
   });
 
-  const nonExam = subject.evaluation.filter((item) => !isExamComponent(item.name) && item.name !== '合計');
-  nonExam.forEach((item) => addKnownRow({ name: item.name, weight: item.weight, score: '', max: 100 }));
-  if (!nonExam.length) addKnownRow({ name: '課題・小テストなど', weight: '', score: '', max: 100 });
+  const exactPeriodicIndex = subject.evaluation.findIndex((item) => item.name === '定期試験');
+  const targetIndex = exactPeriodicIndex >= 0
+    ? exactPeriodicIndex
+    : subject.evaluation.findIndex((item) => isExamComponent(item.name));
+  const target = targetIndex >= 0 ? subject.evaluation[targetIndex] : null;
+  subject.evaluation
+    .filter((_, index) => index !== targetIndex)
+    .forEach((item) => addKnownRow({ name: item.name, weight: item.weight, score: '', max: 100 }));
 
-  const suggestedExamWeight = subject.evaluation
-    .filter((item) => isExamComponent(item.name))
-    .reduce((sum, item) => sum + item.weight, 0);
-  elements.examWeight.value = suggestedExamWeight || '';
+  if (target) {
+    elements.targetComponent.innerHTML = '<span>逆算対象</span><strong></strong><b></b>';
+    elements.targetComponent.querySelector('strong').textContent = target.name;
+    elements.targetComponent.querySelector('b').textContent = `${target.weight}%`;
+    elements.examWeight.value = target.weight;
+  } else {
+    elements.targetComponent.innerHTML = '<span>逆算対象</span><strong>定期試験の掲載なし</strong>';
+    elements.targetComponent.classList.add('target-missing');
+    elements.examWeight.value = '';
+  }
 
   restoreState();
-  elements.addRow.addEventListener('click', () => {
-    addKnownRow({ name: '', weight: '', score: '', max: 100 });
-    update();
-  });
   document.querySelector('#calculator').addEventListener('input', update);
   update();
 }
@@ -78,27 +85,20 @@ function addKnownRow(values) {
   const row = document.createElement('div');
   row.className = 'known-row';
   row.innerHTML = `
-    <input class="known-name" type="text" placeholder="例: 課題" aria-label="獲得済み項目名" />
+    <input class="known-name" type="text" aria-label="シラバスの評価項目名" readonly />
     <div class="input-suffix"><input class="known-weight" type="number" min="0" max="100" step="0.1" inputmode="decimal" aria-label="評価割合" /><b>%</b></div>
-    <div class="score-pair"><input class="known-score" type="number" min="0" step="0.1" inputmode="decimal" placeholder="得点" aria-label="獲得点" /><span>/</span><input class="known-max" type="number" min="0.1" step="0.1" inputmode="decimal" aria-label="満点" /></div>
-    <button class="remove-row" type="button" aria-label="この項目を削除">×</button>`;
+    <div class="score-pair"><input class="known-score" type="number" min="0" step="0.1" inputmode="decimal" placeholder="得点" aria-label="獲得点" /><span>/</span><input class="known-max" type="number" min="0.1" step="0.1" inputmode="decimal" aria-label="満点" /></div>`;
   row.querySelector('.known-name').value = values.name ?? '';
   row.querySelector('.known-weight').value = values.weight ?? '';
   row.querySelector('.known-score').value = values.score ?? '';
   row.querySelector('.known-max').value = values.max ?? 100;
-  if (values.name && values.weight !== '') {
-    row.querySelector('.known-name').readOnly = true;
-    row.querySelector('.known-weight').readOnly = true;
-  }
-  row.querySelector('.remove-row').addEventListener('click', () => {
-    row.remove();
-    update();
-  });
+  row.querySelector('.known-weight').readOnly = true;
   elements.knownRows.append(row);
 }
 
 function readRows() {
   const completed = [];
+  const all = [];
   let hasPartial = false;
   let validationError = '';
   document.querySelectorAll('.known-row').forEach((row) => {
@@ -109,8 +109,8 @@ function readRows() {
       score: row.querySelector('.known-score').value,
       max: row.querySelector('.known-max').value,
     };
-    const relevant = raw.weight !== '' || raw.score !== '';
-    if (!relevant) return;
+    all.push(raw);
+    if (raw.score === '') return;
     if (raw.weight === '' || raw.score === '' || raw.max === '') {
       hasPartial = true;
       return;
@@ -122,7 +122,7 @@ function readRows() {
     }
     completed.push(parsed);
   });
-  return { completed, hasPartial, validationError };
+  return { completed, all, hasPartial, validationError };
 }
 
 function update() {
@@ -159,7 +159,7 @@ function update() {
       elements.results.append(note);
     }
   }
-  saveState(thresholds, rows.completed);
+  saveState(thresholds, rows.all);
 }
 
 function createResultRow(grade, threshold, result, examMax) {
@@ -188,7 +188,7 @@ function formatNumber(value) {
 }
 
 function storageKey() {
-  return `grade-planner:${subject.id}`;
+  return `grade-planner:v2:${subject.id}`;
 }
 
 function saveState(thresholds, rows) {

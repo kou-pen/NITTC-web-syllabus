@@ -31,14 +31,14 @@
         <form id="calculator" novalidate>
           <section class="form-section primary-input-section">
             <div class="form-section-title"><span>01</span><div><h2>獲得した点</h2><p>通常は得点欄だけ入力すれば計算できます</p></div></div>
-            <div class="known-table-head"><span>項目</span><span>割合</span><span>得点 / 満点</span><span></span></div>
+            <div id="target-component" class="target-component"></div>
+            <div class="known-table-head"><span>シラバスの評価項目</span><span>割合</span><span>得点 / 満点</span></div>
             <div id="known-rows"></div>
-            <button id="add-row" class="secondary-button" type="button">＋ 項目を追加</button>
             <p class="field-help">空欄は0点として扱わず、計算から除外します。</p>
           </section>
 
           <details class="calculator-settings">
-            <summary><span>計算設定を変更</span><b id="settings-summary">A 80 · B 70 · C 60 ／ 試験条件</b></summary>
+            <summary><span>計算設定を変更</span><b id="settings-summary">A 85 · B 70 · C 60 ／ 試験条件</b></summary>
             <div class="settings-content">
               <section class="settings-block">
                 <div class="settings-title"><strong>評価基準</strong><span>最終総合点の下限</span></div>
@@ -47,7 +47,7 @@
               <section class="settings-block exam-section">
                 <div class="settings-title"><strong>残りの定期試験</strong><span>今回1回分の条件</span></div>
                 <div class="field-row three-fields">
-                  <label><span>総合評価での割合</span><div class="input-suffix"><input id="exam-weight" type="number" min="0" max="100" step="0.1" inputmode="decimal" required /><b>%</b></div></label>
+                  <label><span>シラバス記載の割合</span><div class="input-suffix"><input id="exam-weight" type="number" min="0" max="100" step="0.1" inputmode="decimal" readonly required /><b>%</b></div></label>
                   <label><span>試験の満点</span><div class="input-suffix"><input id="exam-max" type="number" min="0.1" step="0.1" value="100" inputmode="decimal" required /><b>点</b></div></label>
                   <label><span>得点刻み</span><div class="input-suffix"><input id="score-step" type="number" min="0.1" step="0.1" value="1" inputmode="decimal" required /><b>点</b></div></label>
                 </div>
@@ -60,7 +60,7 @@
           <div class="result-heading"><div><p class="eyebrow">RESULT</p><h2 id="result-title">必要な試験得点</h2></div><p>獲得済み <strong id="weighted-total">0</strong> / 100</p></div>
           <div id="form-error" class="form-error" role="alert" hidden></div>
           <div id="results" class="results-list"></div>
-          <p class="result-footnote">表示点は得点刻みに合わせて切り上げ。総合点の丸めは行いません。</p>
+          <p class="result-footnote">必要点は得点刻みに合わせて切り上げ、最終総合点は小数点以下を切り捨てて判定します。</p>
         </section>
       </aside>
 

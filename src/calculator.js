@@ -1,7 +1,7 @@
 const EPSILON = 1e-9;
 
 export const DEFAULT_THRESHOLDS = [
-  { grade: 'A', value: 80 },
+  { grade: 'A', value: 85 },
   { grade: 'B', value: 70 },
   { grade: 'C', value: 60 },
   { grade: 'F', value: 0 },
@@ -34,18 +34,22 @@ export function calculateRequiredScore({ threshold, earned, examWeight, examMax,
     return { status: 'invalid' };
   }
 
-  if (earned + EPSILON >= threshold) {
-    return { status: 'secured', exact: 0, required: 0, maxFinal: earned + examWeight };
+  const effectiveThreshold = Math.ceil(threshold - EPSILON);
+  const currentFinal = Math.floor(earned + EPSILON);
+  const maximumFinal = Math.floor(earned + examWeight + EPSILON);
+
+  if (currentFinal >= effectiveThreshold) {
+    return { status: 'secured', exact: 0, required: 0, maxFinal: maximumFinal };
   }
 
   if (examWeight <= 0) {
-    return { status: 'impossible', exact: Infinity, required: null, maxFinal: earned, shortage: threshold - earned };
+    return { status: 'impossible', exact: Infinity, required: null, maxFinal: currentFinal, shortage: effectiveThreshold - currentFinal };
   }
 
-  const exact = (threshold - earned) * examMax / examWeight;
+  const exact = (effectiveThreshold - earned) * examMax / examWeight;
   const required = Math.ceil(exact / step - EPSILON) * step;
   const roundedRequired = Number(required.toFixed(10));
-  const maxFinal = earned + examWeight;
+  const maxFinal = maximumFinal;
 
   if (exact > examMax + EPSILON || roundedRequired > examMax + EPSILON) {
     return {
@@ -53,7 +57,7 @@ export function calculateRequiredScore({ threshold, earned, examWeight, examMax,
       exact,
       required: null,
       maxFinal,
-      shortage: Math.max(0, threshold - maxFinal),
+      shortage: Math.max(0, effectiveThreshold - maxFinal),
     };
   }
 
