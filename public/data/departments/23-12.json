@@ -1,0 +1,4849 @@
+{
+  "sourceUrl": "https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=23&department_id=12&year=2026&lang=ja",
+  "scrapedAt": "2026-07-30T07:23:00.604Z",
+  "academicYear": 2026,
+  "schoolId": "23",
+  "schoolName": "豊田工業高等専門学校",
+  "departmentId": "12",
+  "departmentName": "電気・電子システム工学科",
+  "subjects": [
+    {
+      "id": "23-12-01121-2026",
+      "code": "01121",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "国語Ⅰ甲A",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "加藤 彩",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 45
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        },
+        {
+          "name": "小テスト",
+          "weight": 10
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01121&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01122-2026",
+      "code": "01122",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "国語Ⅰ乙A",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "眞野 道子,江口 啓子",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01122&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01124-2026",
+      "code": "01124",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "地理A",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙橋 清吾",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01124&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01125-2026",
+      "code": "01125",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎解析ⅠA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "吉澤 毅,金坂 尚礼,笠谷 昌弘",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01125&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01126-2026",
+      "code": "01126",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "線形数学ⅠA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙村 明,梅澤 瞭太,金坂 尚礼",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01126&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01127-2026",
+      "code": "01127",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "物理ⅠA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "榎本 貴志",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01127&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01128-2026",
+      "code": "01128",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "化学ⅠA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "今 徳義",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01128&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01131-2026",
+      "code": "01131",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語会話A",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "M. Bodell,S. Vigrow,山田 慶太,E. Okrand",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "会話演習",
+          "weight": 50
+        },
+        {
+          "name": "多読",
+          "weight": 50
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01131&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01134-2026",
+      "code": "01134",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "保健体育ⅠA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "近藤 雅哉",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "スポーツテスト",
+          "weight": 10
+        },
+        {
+          "name": "水泳",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 55
+        },
+        {
+          "name": "保健",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01134&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01137-2026",
+      "code": "01137",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語コミュニケーションⅠA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "竹野 貴子,新美 徳康",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01137&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01138-2026",
+      "code": "01138",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語表現基礎A",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "川島 彩那,遠藤 颯馬",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01138&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01139-2026",
+      "code": "01139",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "公共A",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "北野 孝志",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 65
+        },
+        {
+          "name": "課題",
+          "weight": 5
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01139&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01221-2026",
+      "code": "01221",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "国語Ⅰ甲B",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "加藤 彩",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 45
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        },
+        {
+          "name": "小テスト",
+          "weight": 10
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01221&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01222-2026",
+      "code": "01222",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "国語Ⅰ乙B",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "眞野 道子,江口 啓子",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01222&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01224-2026",
+      "code": "01224",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "地理B",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙橋 清吾",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01224&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01225-2026",
+      "code": "01225",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎解析ⅠB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "吉澤 毅,金坂 尚礼,笠谷 昌弘",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01225&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01226-2026",
+      "code": "01226",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "線形数学ⅠB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙村 明,梅澤 瞭太",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01226&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01227-2026",
+      "code": "01227",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "物理ⅠB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "榎本 貴志",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01227&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01228-2026",
+      "code": "01228",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "化学ⅠB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "今 徳義",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01228&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01231-2026",
+      "code": "01231",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語会話B",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "M. Bodell,S. Vigrow,山田 慶太,E. Okrand",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "会話演習",
+          "weight": 50
+        },
+        {
+          "name": "多読",
+          "weight": 50
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01231&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01233-2026",
+      "code": "01233",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "保健体育ⅠB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "加藤 貴英",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "持久走",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 65
+        },
+        {
+          "name": "保健",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01233&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01234-2026",
+      "code": "01234",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "総合理科",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "小島 靖男,川瀬 豊",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01234&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01236-2026",
+      "code": "01236",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語コミュニケーションⅠB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "竹野 貴子,新美 徳康",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01236&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01237-2026",
+      "code": "01237",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語表現基礎B",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "川島 彩那,遠藤 颯馬",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01237&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-01238-2026",
+      "code": "01238",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "公共B",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "佐々木 陽平",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=01238&year=2026&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02101-2025",
+      "code": "02101",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "保健体育ⅡA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙津 浩彰",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "スポーツテスト",
+          "weight": 10
+        },
+        {
+          "name": "水泳",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 55
+        },
+        {
+          "name": "保健",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02101&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02121-2025",
+      "code": "02121",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "国語ⅡA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "山口 比砂",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 45
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        },
+        {
+          "name": "小テスト",
+          "weight": 10
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02121&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02123-2025",
+      "code": "02123",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎解析ⅡA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "髙村 明,金坂 尚礼,笠谷 昌弘",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02123&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02124-2025",
+      "code": "02124",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "線形数学ⅡA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "梅澤 瞭太",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02124&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02125-2025",
+      "code": "02125",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "物理ⅡA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "箭内 将大",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02125&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02126-2025",
+      "code": "02126",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "化学ⅡA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "今 徳義,篠原 浩美",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02126&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02129-2025",
+      "code": "02129",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語表現A",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "山田 慶太,浅井 晴美",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02129&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02130-2025",
+      "code": "02130",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "歴史A",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "京極 俊明,早坂 泰行,望月 秀人",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02130&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02131-2025",
+      "code": "02131",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語コミュニケーションⅡA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "竹野 貴子,岡田 百合",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02131&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02201-2025",
+      "code": "02201",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "保健体育ⅡB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙津 浩彰",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "持久走",
+          "weight": 15
+        },
+        {
+          "name": "保健課題",
+          "weight": 20
+        },
+        {
+          "name": "実技課題",
+          "weight": 65
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02201&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02221-2025",
+      "code": "02221",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "国語ⅡB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "山口 比砂",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 45
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        },
+        {
+          "name": "小テスト",
+          "weight": 10
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02221&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02223-2025",
+      "code": "02223",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎解析ⅡB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "髙村 明,金坂 尚礼,笠谷 昌弘",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02223&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02224-2025",
+      "code": "02224",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "線形数学ⅡB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "梅澤 瞭太",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02224&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02225-2025",
+      "code": "02225",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "物理ⅡB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "箭内 将大",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02225&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02226-2025",
+      "code": "02226",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "物理実験",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "榎本 貴志,箭内 将大,小山 暁,今 徳義,篠原 浩美",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "課題",
+          "weight": 100
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02226&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02227-2025",
+      "code": "02227",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "化学ⅡB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "篠原 浩美",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02227&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02230-2025",
+      "code": "02230",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語表現B",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "遠藤 颯馬,川島 彩那,浅井 晴美",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02230&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02233-2025",
+      "code": "02233",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "歴史B",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "京極 俊明,早坂 泰行",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02233&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-02234-2025",
+      "code": "02234",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語コミュニケーションⅡB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "竹野 貴子,岡田 百合",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=02234&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03101-2024",
+      "code": "03101",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "保健体育ⅢA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "加藤 貴英",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "スポーツテスト",
+          "weight": 10
+        },
+        {
+          "name": "水泳",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 55
+        },
+        {
+          "name": "保健",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03101&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03121-2024",
+      "code": "03121",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "国語ⅢA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "眞野 道子,谷 信吾",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03121&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03122-2024",
+      "code": "03122",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "歴史ⅡA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "京極 俊明",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03122&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03123-2024",
+      "code": "03123",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎解析Ⅲ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "稲吉 凌",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03123&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03124-2024",
+      "code": "03124",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎解析Ⅳ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "勝谷 浩明",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03124&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03125-2024",
+      "code": "03125",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "化学Ⅲ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "篠原 浩美",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03125&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03127-2024",
+      "code": "03127",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語講読ⅢA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "遠藤 颯馬",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題・小テスト",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03127&year=2024&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-03128-2024",
+      "code": "03128",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "科学英語基礎ⅠA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "山田 慶太,新美 徳康",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "Examination",
+          "weight": 50
+        },
+        {
+          "name": "Presentation",
+          "weight": 30
+        },
+        {
+          "name": "Task",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03128&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03201-2024",
+      "code": "03201",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "確率",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "稲吉 凌,伊藤 裕貴",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "中間試験",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03201&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03202-2024",
+      "code": "03202",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "保健体育ⅢB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "近藤 雅哉",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "持久走",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 65
+        },
+        {
+          "name": "保健",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03202&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03221-2024",
+      "code": "03221",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "国語ⅢB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "狩野 一三,谷 信吾",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03221&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03222-2024",
+      "code": "03222",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "歴史ⅡB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "京極 俊明",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03222&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03224-2024",
+      "code": "03224",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "微分方程式",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "勝谷 浩明,髙村 明",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03224&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03227-2024",
+      "code": "03227",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語講読ⅢB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "遠藤 颯馬",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題・小テスト",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03227&year=2024&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-03228-2024",
+      "code": "03228",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "科学英語基礎ⅠB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "山田 慶太,新美 徳康",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "Examination",
+          "weight": 50
+        },
+        {
+          "name": "Presentation",
+          "weight": 30
+        },
+        {
+          "name": "Task",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03228&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03229-2024",
+      "code": "03229",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "倫理",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "北野 孝志",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03229&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-03351-2024",
+      "code": "03351",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "日本事情",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 4,
+      "teachers": "眞野 道子",
+      "yearLevel": 3,
+      "term": "通年",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 30
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03351&year=2024&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-03352-2024",
+      "code": "03352",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "日本語Ⅰ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 4,
+      "teachers": "伊藤 亜希子",
+      "yearLevel": 3,
+      "term": "通年",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 25
+        },
+        {
+          "name": "小テスト",
+          "weight": 25
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=03352&year=2024&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04102-2023",
+      "code": "04102",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "保健体育ⅣA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "土井 颯一郎",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "スポーツテスト",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 85
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04102&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04108-2023",
+      "code": "04108",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "哲学Ⅰ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "北野 孝志",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04108&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04110-2023",
+      "code": "04110",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "現代社会学Ⅰ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "髙橋 清吾",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題点",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04110&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04111-2023",
+      "code": "04111",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "経済学Ⅰ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "申 成秀",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04111&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04112-2023",
+      "code": "04112",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "法学Ⅰ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "大矢 武史",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "小テスト",
+          "weight": 50
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04112&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04114-2023",
+      "code": "04114",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語Ⅰ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "川島 彩那,出嶋 真由美",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04114&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04125-2023",
+      "code": "04125",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "科学英語基礎ⅡA",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "新美 徳康,竹野 貴子,竹多 亮子,出嶋 真由美",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04125&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04202-2023",
+      "code": "04202",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "保健体育ⅣB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "土井 颯一郎",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "持久走",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 85
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04202&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04208-2023",
+      "code": "04208",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "哲学Ⅱ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "北野 孝志",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04208&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04210-2023",
+      "code": "04210",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "現代社会学Ⅱ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "髙橋 清吾",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04210&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04211-2023",
+      "code": "04211",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "経済学Ⅱ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "長坂 高男",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04211&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04212-2023",
+      "code": "04212",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "法学Ⅱ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "六鹿 竜輝",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04212&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04214-2023",
+      "code": "04214",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "物理特論",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "川瀬 豊",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04214&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04215-2023",
+      "code": "04215",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "化学特論",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "篠原 浩美",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04215&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04216-2023",
+      "code": "04216",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "数学特論",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "勝谷 浩明,笠井 剛",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 35
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04216&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04225-2023",
+      "code": "04225",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "科学英語基礎ⅡB",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "新美 徳康,出嶋 真由美",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04225&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-04351-2023",
+      "code": "04351",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "日本語Ⅱ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "伊藤 亜希子",
+      "yearLevel": 4,
+      "term": "通年",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 25
+        },
+        {
+          "name": "小テスト",
+          "weight": 25
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04351&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-05102-2022",
+      "code": "05102",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "保健体育ⅤＡ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙津 浩彰,加藤 貴英,近藤 雅哉,土井 颯一郎",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "スポーツテスト",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 85
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=05102&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-05104-2022",
+      "code": "05104",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "文学特論",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "加藤 彩",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=05104&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-05108-2022",
+      "code": "05108",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "社会科学特論Ⅰ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "申 成秀",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=05108&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-05109-2022",
+      "code": "05109",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "人文科学特論Ⅰ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "髙橋 清吾",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題点",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=05109&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-05110-2022",
+      "code": "05110",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語Ⅱ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "遠藤 颯馬",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 80
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=05110&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-05201-2022",
+      "code": "05201",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "保健体育ⅤＢ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "髙津 浩彰,加藤 貴英,近藤 雅哉,土井 颯一郎",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "持久走",
+          "weight": 15
+        },
+        {
+          "name": "実技課題",
+          "weight": 85
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=05201&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-05208-2022",
+      "code": "05208",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "社会科学特論Ⅱ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "松山 聡史",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "小レポート",
+          "weight": 25
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=05208&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-05209-2022",
+      "code": "05209",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "人文科学特論Ⅱ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "北野 孝志",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 50
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=05209&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-05210-2022",
+      "code": "05210",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "英語Ⅲ",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "川島 彩那",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 80
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=05210&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-05211-2022",
+      "code": "05211",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "ドイツ語",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "渋谷 歩",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "小テスト",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=05211&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-71145-2026",
+      "code": "71145",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気基礎演習Ａ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "高山 滉平",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=71145&year=2026&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-71146-2026",
+      "code": "71146",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎電気工学Ａ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "塚本 武彦",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=71146&year=2026&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-71147-2026",
+      "code": "71147",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "情報基礎",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "高山 滉平",
+      "yearLevel": 1,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "課題",
+          "weight": 100
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=71147&year=2026&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-71245-2026",
+      "code": "71245",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気基礎演習Ｂ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "及川 大",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=71245&year=2026&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-71246-2026",
+      "code": "71246",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎電気工学Ｂ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "塚本 武彦",
+      "yearLevel": 1,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=71246&year=2026&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-71247-2026",
+      "code": "71247",
+      "syllabusYear": 2026,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "創造電気実験実習",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "塚本 武彦,松原 貴史,小寺 紗千子",
+      "yearLevel": 1,
+      "term": "通年",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "レポート",
+          "weight": 70
+        },
+        {
+          "name": "発表会",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=71247&year=2026&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-72144-2025",
+      "code": "72144",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気回路Ａ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "光本 真一",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=72144&year=2025&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-72145-2025",
+      "code": "72145",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "マイクロコンピュータ工学Ａ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "杉浦 藤虎",
+      "yearLevel": 2,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=72145&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-72225-2025",
+      "code": "72225",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気数学",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "熊谷 勇喜",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=72225&year=2025&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-72242-2025",
+      "code": "72242",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気回路Ｂ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "光本 真一",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=72242&year=2025&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-72243-2025",
+      "code": "72243",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "マイクロコンピュータ工学Ｂ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "犬塚 勝美,高山 滉平",
+      "yearLevel": 2,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 70
+        },
+        {
+          "name": "小テスト",
+          "weight": 10
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=72243&year=2025&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-72343-2025",
+      "code": "72343",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気英語基礎Ⅰ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "吉岡 貴芳",
+      "yearLevel": 2,
+      "term": "通年",
+      "weeklyHours": 1,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=72343&year=2025&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-72344-2025",
+      "code": "72344",
+      "syllabusYear": 2025,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気基礎実験",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 4,
+      "teachers": "大野 亙,小寺 紗千子",
+      "yearLevel": 2,
+      "term": "通年",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "レポート",
+          "weight": 95
+        },
+        {
+          "name": "発表",
+          "weight": 5
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=72344&year=2025&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-73141-2024",
+      "code": "73141",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "応用物理学A",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "小山 暁",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73141&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-73143-2024",
+      "code": "73143",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気数理演習A",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "松原 貴史",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73143&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-73146-2024",
+      "code": "73146",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "プログラミング基礎A",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "吉岡 貴芳",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "中間試験",
+          "weight": 20
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73146&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-73147-2024",
+      "code": "73147",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気電子工学実験ⅠA",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "犬塚 勝美,高山 滉平",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "実習報告書",
+          "weight": 100
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73147&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-73148-2024",
+      "code": "73148",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "物理Ⅲ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "川瀬 豊",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73148&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-73149-2024",
+      "code": "73149",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎交流回路A",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 1,
+      "teachers": "光本 真一",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 1,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73149&year=2024&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-73150-2024",
+      "code": "73150",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎電気磁気学A",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 1,
+      "teachers": "塚本 武彦",
+      "yearLevel": 3,
+      "term": "前期",
+      "weeklyHours": 1,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73150&year=2024&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-73241-2024",
+      "code": "73241",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "応用物理学B",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "小山 暁",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73241&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-73242-2024",
+      "code": "73242",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気数理演習B",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "松原 貴史",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73242&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-73245-2024",
+      "code": "73245",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "プログラミング基礎B",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "大野 亙",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73245&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-73246-2024",
+      "code": "73246",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気電子工学実験ⅠB",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "犬塚 勝美,高山 滉平,松原 貴史",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "レポート",
+          "weight": 100
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73246&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-73247-2024",
+      "code": "73247",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎交流回路B",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 1,
+      "teachers": "光本 真一",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 1,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73247&year=2024&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-73248-2024",
+      "code": "73248",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "基礎電気磁気学B",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 1,
+      "teachers": "塚本 武彦",
+      "yearLevel": 3,
+      "term": "後期",
+      "weeklyHours": 1,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73248&year=2024&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-73341-2024",
+      "code": "73341",
+      "syllabusYear": 2024,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気英語基礎Ⅱ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "吉岡 貴芳",
+      "yearLevel": 3,
+      "term": "通年",
+      "weeklyHours": 1,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=73341&year=2024&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-04101-2023",
+      "code": "04101",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "日本語表現",
+      "category": "一般",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "加藤 彩,伊藤 亜希子",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 30
+        },
+        {
+          "name": "小テスト",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=04101&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-74143-2023",
+      "code": "74143",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電子回路A",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "及川 大",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "中間試験",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74143&year=2023&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-74144-2023",
+      "code": "74144",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気計測",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "松原 貴史",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 56
+        },
+        {
+          "name": "課題",
+          "weight": 13
+        },
+        {
+          "name": "小テスト",
+          "weight": 31
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74144&year=2023&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-74147-2023",
+      "code": "74147",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気電子工学実験ⅡA",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "及川 大,熊谷 勇喜",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "レポート",
+          "weight": 100
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74147&year=2023&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-74149-2023",
+      "code": "74149",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "解析学A",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "齊藤 清美",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74149&year=2023&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-74150-2023",
+      "code": "74150",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "交流回路A",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "光本 真一",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74150&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-74151-2023",
+      "code": "74151",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気磁気学A",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "塚本 武彦",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74151&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-74152-2023",
+      "code": "74152",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "プログラミング技法",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "大野 亙",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74152&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-74153-2023",
+      "code": "74153",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "回路理論",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "光本 真一",
+      "yearLevel": 4,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74153&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-74243-2023",
+      "code": "74243",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電子回路B",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "及川 大",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 40
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74243&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-74246-2023",
+      "code": "74246",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "エネルギ変換工学Ⅰ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "犬塚 勝美",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 65
+        },
+        {
+          "name": "小テスト",
+          "weight": 15
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74246&year=2023&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-74247-2023",
+      "code": "74247",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電子工学",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "及川 大",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 40
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74247&year=2023&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-74249-2023",
+      "code": "74249",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気電子工学実験ⅡB",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "犬塚 勝美,熊谷 勇喜,高山 滉平",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 4,
+      "evaluation": [
+        {
+          "name": "レポート",
+          "weight": 100
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74249&year=2023&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-74250-2023",
+      "code": "74250",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "交流回路B",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "光本 真一",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74250&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-74251-2023",
+      "code": "74251",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "解析学B",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "佐々木 祐",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74251&year=2023&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-74252-2023",
+      "code": "74252",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気磁気学B",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "松原 貴史",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "小テスト",
+          "weight": 50
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74252&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-74253-2023",
+      "code": "74253",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気電子工学演習Ⅰ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 1,
+      "teachers": "熊谷 勇喜",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 1,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74253&year=2023&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-74254-2023",
+      "code": "74254",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気電子工学ゼミ",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "杉浦 藤虎,吉岡 貴芳,犬塚 勝美,大野 亙,光本 真一,及川 大,熊谷 勇喜,高山 滉平,松原 貴史,小寺 紗千子",
+      "yearLevel": 4,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "課題",
+          "weight": 100
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74254&year=2023&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-74341-2023",
+      "code": "74341",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気技術英語Ⅰ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "吉岡 貴芳",
+      "yearLevel": 4,
+      "term": "通年",
+      "weeklyHours": 1,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "小テスト",
+          "weight": 10
+        },
+        {
+          "name": "課題",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74341&year=2023&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-74343-2023",
+      "code": "74343",
+      "syllabusYear": 2023,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "校外実習",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 2,
+      "teachers": "及川 大",
+      "yearLevel": 4,
+      "term": "通年",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "最終発表",
+          "weight": 30
+        },
+        {
+          "name": "レポート",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=74343&year=2023&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-75143-2022",
+      "code": "75143",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "エネルギ変換工学Ⅱ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "犬塚 勝美",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 65
+        },
+        {
+          "name": "小テスト",
+          "weight": 15
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=75143&year=2022&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-75145-2022",
+      "code": "75145",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "半導体工学",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "熊谷 勇喜",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 40
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=75145&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-75146-2022",
+      "code": "75146",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "ディジタル回路",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "熊谷 勇喜",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=75146&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-75148-2022",
+      "code": "75148",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "信号処理",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "光岡 稜真",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 40
+        },
+        {
+          "name": "課題",
+          "weight": 60
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=75148&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-75149-2022",
+      "code": "75149",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気電子工学演習Ⅱ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 1,
+      "teachers": "及川 大,小寺 紗千子",
+      "yearLevel": 5,
+      "term": "前期",
+      "weeklyHours": 1,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        },
+        {
+          "name": "小テスト",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=75149&year=2022&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-75150-2022",
+      "code": "75150",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "システム制御工学",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "松原 貴史",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 25
+        },
+        {
+          "name": "定期試験",
+          "weight": 60
+        },
+        {
+          "name": "課題",
+          "weight": 15
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=75150&year=2022&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-75241-2022",
+      "code": "75241",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "統計学",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "稲吉 凌",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 35
+        },
+        {
+          "name": "定期試験",
+          "weight": 55
+        },
+        {
+          "name": "課題",
+          "weight": 10
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=75241&year=2022&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-75242-2022",
+      "code": "75242",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電力工学",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "光本 真一",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 80
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=75242&year=2022&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-75244-2022",
+      "code": "75244",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "パワーエレクトロニクス",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "学修単位",
+      "credits": 2,
+      "teachers": "北川 亘",
+      "yearLevel": 5,
+      "term": "後期",
+      "weeklyHours": 2,
+      "evaluation": [
+        {
+          "name": "中間試験",
+          "weight": 30
+        },
+        {
+          "name": "定期試験",
+          "weight": 50
+        },
+        {
+          "name": "課題",
+          "weight": 20
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=75244&year=2022&lang=ja",
+      "enrollment": "必履修"
+    },
+    {
+      "id": "23-12-75341-2022",
+      "code": "75341",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "電気技術英語Ⅱ",
+      "category": "専門",
+      "selection": "選択",
+      "creditType": "履修単位",
+      "credits": 1,
+      "teachers": "大野 亙",
+      "yearLevel": 5,
+      "term": "通年",
+      "weeklyHours": 1,
+      "evaluation": [
+        {
+          "name": "定期試験",
+          "weight": 70
+        },
+        {
+          "name": "課題",
+          "weight": 30
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=75341&year=2022&lang=ja",
+      "enrollment": ""
+    },
+    {
+      "id": "23-12-75343-2022",
+      "code": "75343",
+      "syllabusYear": 2022,
+      "schoolId": "23",
+      "schoolName": "豊田工業高等専門学校",
+      "departmentId": "12",
+      "departmentName": "電気・電子システム工学科",
+      "name": "卒業研究",
+      "category": "専門",
+      "selection": "必修",
+      "creditType": "履修単位",
+      "credits": 8,
+      "teachers": "杉浦 藤虎,吉岡 貴芳,犬塚 勝美,大野 亙,光本 真一,及川 大,熊谷 勇喜,高山 滉平,松原 貴史,小寺 紗千子",
+      "yearLevel": 5,
+      "term": "通年",
+      "weeklyHours": 8,
+      "evaluation": [
+        {
+          "name": "論文",
+          "weight": 60
+        },
+        {
+          "name": "研究発表",
+          "weight": 40
+        }
+      ],
+      "url": "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=23&department_id=12&subject_code=75343&year=2022&lang=ja",
+      "enrollment": "必履修"
+    }
+  ]
+}

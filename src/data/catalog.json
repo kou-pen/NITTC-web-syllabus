@@ -1,0 +1,18 @@
+{
+  "sourceUrl": "https://syllabus.kosen-k.go.jp/Pages/PublicDepartments?school_id=23&year=2026&lang=ja",
+  "scrapedAt": "2026-07-30T00:00:00.000Z",
+  "academicYear": 2026,
+  "schools": [
+    {
+      "id": "23",
+      "name": "豊田工業高等専門学校",
+      "departments": [
+        { "id": "11", "name": "機械工学科", "file": "23-11.json", "subjectCount": 144 },
+        { "id": "12", "name": "電気・電子システム工学科", "file": "23-12.json", "subjectCount": 147 },
+        { "id": "13", "name": "情報工学科", "file": "23-13.json", "subjectCount": 144 },
+        { "id": "14", "name": "環境都市工学科", "file": "23-14.json", "subjectCount": 147 },
+        { "id": "15", "name": "建築学科", "file": "23-15.json", "subjectCount": 141 }
+      ]
+    }
+  ]
+}

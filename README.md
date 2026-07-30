@@ -48,7 +48,7 @@ npm run check
 2. GitHubの **Settings → Pages → Build and deployment** で Source を **GitHub Actions** にします。
 3. `Scrape syllabus and deploy Pages` ワークフローの完了を待ちます。
 
-以後、`main` へのpushで自動デプロイされます。毎週月曜早朝（日本時間）と手動実行時にはシラバスも再取得します。更新されたJSONをリポジトリへ残したい場合は、ローカルで `npm run scrape` を実行して `src/data/subjects.json` をcommitしてください。
+以後、`main` へのpushで自動デプロイされます。毎週月曜早朝（日本時間）と手動実行時にはシラバスも再取得します。更新されたJSONをリポジトリへ残したい場合は、ローカルで `npm run scrape` を実行して `src/data/catalog.json` と `public/data/departments/*.json` をcommitしてください。
 
 ## データ取得方針と制約
 

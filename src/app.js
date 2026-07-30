@@ -1,4 +1,4 @@
-import syllabus from './data/subjects.json';
+import catalog from './data/catalog.json';
 import { DEFAULT_THRESHOLDS, calculateRequiredScore, validateThresholds, weightedPoints } from './calculator.js';
 import './styles.css';
 
@@ -21,6 +21,8 @@ const elements = {
 const SCORE_MAX = 100;
 const SCORE_STEP = 1;
 let activeRowUpdaters = [];
+let subjects = [];
+let loadSequence = 0;
 
 function findPeriodicExam(subject) {
   const exact = subject.evaluation.find((item) => item.name === '定期試験');
@@ -280,14 +282,12 @@ function formatNumber(value) {
 
 function render() {
   const query = elements.search.value.trim().toLocaleLowerCase('ja');
-  const departmentId = elements.department.value;
   const grade = elements.grade.querySelector('.is-active')?.dataset.grade ?? '';
   const term = elements.term.value;
   const requirement = elements.requirement.value;
   const examFilter = elements.exam.value;
-  const departmentSubjects = syllabus.subjects.filter((subject) => String(subject.departmentId) === departmentId);
-  const filtered = departmentSubjects.filter((subject) => {
-    const haystack = `${subject.name} ${subject.code} ${subject.teachers} ${subject.departmentName}`.toLocaleLowerCase('ja');
+  const filtered = subjects.filter((subject) => {
+    const haystack = `${subject.name} ${subject.code} ${subject.teachers} ${subject.schoolName} ${subject.departmentName}`.toLocaleLowerCase('ja');
     if (query && !haystack.includes(query)) return false;
     if (grade && String(subject.yearLevel) !== grade) return false;
     if (term && subject.term !== term) return false;
@@ -310,33 +310,70 @@ function render() {
   activeRowUpdaters = [];
   elements.subjects.replaceChildren(...filtered.map(createSubjectRow));
   elements.empty.hidden = filtered.length > 0;
-  elements.status.textContent = `${filtered.length} / ${departmentSubjects.length} 科目`;
-  elements.officialSyllabus.href = `https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=23&department_id=${encodeURIComponent(departmentId)}&year=${syllabus.academicYear ?? 2026}&lang=ja`;
+  elements.status.textContent = `${filtered.length} / ${subjects.length} 科目`;
 }
 
-const departments = syllabus.departments ?? [...new Map(syllabus.subjects.map((subject) => [
-  subject.departmentId,
-  { id: subject.departmentId, name: subject.departmentName },
-])).values()];
-departments.forEach((department) => {
-  const option = document.createElement('option');
-  option.value = department.id;
-  option.textContent = department.name;
-  elements.department.append(option);
-});
-if ([...elements.department.options].some((option) => option.value === '13')) {
-  elements.department.value = '13';
+function selectedSchool() {
+  return catalog.schools[0] ?? null;
 }
 
-const terms = [...new Set(syllabus.subjects.map((subject) => subject.term).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ja'));
-terms.forEach((term) => {
-  const option = document.createElement('option');
-  option.value = term;
-  option.textContent = term;
-  elements.term.append(option);
-});
+function selectedDepartment() {
+  return selectedSchool()?.departments.find((department) => department.id === elements.department.value) ?? null;
+}
+
+function populateDepartments(preferredId = '') {
+  const departments = selectedSchool()?.departments ?? [];
+  elements.department.replaceChildren(...departments.map((department) => {
+    const option = document.createElement('option');
+    option.value = department.id;
+    option.textContent = department.name;
+    return option;
+  }));
+  if (departments.some((department) => department.id === preferredId)) elements.department.value = preferredId;
+}
+
+function populateTerms() {
+  elements.term.querySelectorAll('option:not(:first-child)').forEach((option) => option.remove());
+  const terms = [...new Set(subjects.map((subject) => subject.term).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ja'));
+  terms.forEach((term) => {
+    const option = document.createElement('option');
+    option.value = term;
+    option.textContent = term;
+    elements.term.append(option);
+  });
+  if (!terms.includes(elements.term.value)) elements.term.value = '';
+}
+
+async function loadDepartment() {
+  const school = selectedSchool();
+  const department = selectedDepartment();
+  if (!school || !department) return;
+  const sequence = ++loadSequence;
+  subjects = [];
+  activeRowUpdaters = [];
+  elements.subjects.replaceChildren();
+  elements.empty.hidden = true;
+  elements.status.textContent = `${school.name} ${department.name}を読み込み中…`;
+  elements.officialSyllabus.href = `https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=${encodeURIComponent(school.id)}&department_id=${encodeURIComponent(department.id)}&year=${catalog.academicYear ?? 2026}&lang=ja`;
+  try {
+    const response = await fetch(`${import.meta.env.BASE_URL}data/departments/${department.file}`);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    if (sequence !== loadSequence) return;
+    subjects = Array.isArray(data.subjects) ? data.subjects : [];
+    populateTerms();
+    render();
+  } catch {
+    if (sequence !== loadSequence) return;
+    elements.status.textContent = '科目データを読み込めませんでした';
+    elements.empty.hidden = false;
+    elements.empty.querySelector('h3').textContent = 'この学科のデータがまだありません';
+    elements.empty.querySelector('p').textContent = 'シラバスの更新処理後にもう一度お試しください。';
+  }
+}
 
 restoreThresholds();
+let preferredDepartment = '13';
 try {
   const savedGrade = localStorage.getItem('grade-planner:grade-filter');
   const savedButton = elements.grade.querySelector(`[data-grade="${savedGrade ?? ''}"]`);
@@ -348,13 +385,11 @@ try {
   if ([...elements.categorySort.options].some((option) => option.value === savedCategorySort)) {
     elements.categorySort.value = savedCategorySort;
   }
-  const savedDepartment = localStorage.getItem('grade-planner:department-filter') ?? '13';
-  if ([...elements.department.options].some((option) => option.value === savedDepartment)) {
-    elements.department.value = savedDepartment;
-  }
+  preferredDepartment = localStorage.getItem('grade-planner:department-filter') ?? '13';
 } catch {
   // Filtering works without persistent storage.
 }
+populateDepartments(preferredDepartment);
 
 elements.thresholds.addEventListener('input', () => {
   const thresholds = readThresholds();
@@ -368,7 +403,7 @@ elements.thresholds.addEventListener('input', () => {
 [elements.search, elements.term, elements.requirement, elements.exam].forEach((element) => element.addEventListener('input', render));
 elements.department.addEventListener('input', () => {
   try { localStorage.setItem('grade-planner:department-filter', elements.department.value); } catch { /* optional */ }
-  render();
+  loadDepartment();
 });
 elements.categorySort.addEventListener('input', () => {
   try { localStorage.setItem('grade-planner:category-sort', elements.categorySort.value); } catch { /* optional */ }
@@ -383,11 +418,11 @@ elements.grade.addEventListener('click', (event) => {
   render();
 });
 
-if (syllabus.subjects.length === 0) {
-  elements.status.textContent = '科目データがありません';
+if (catalog.schools.length === 0) {
+  elements.status.textContent = '学校データがありません';
   elements.empty.hidden = false;
-  elements.empty.querySelector('h3').textContent = '先にシラバスデータを取得してください';
-  elements.empty.querySelector('p').textContent = 'npm run scrape を実行すると科目が表示されます。';
+  elements.empty.querySelector('h3').textContent = '先に学校データを取得してください';
+  elements.empty.querySelector('p').textContent = 'npm run scrape を実行してください。';
 } else {
-  render();
+  loadDepartment();
 }
