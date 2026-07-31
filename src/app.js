@@ -1,5 +1,5 @@
 import catalog from './data/catalog.json';
-import { DEFAULT_THRESHOLDS, calculateRequiredScore, validateThresholds, weightedPoints } from './calculator.js';
+import { DEFAULT_THRESHOLDS, calculateRequiredScore, parseScoreExpression, validateThresholds, weightedPoints } from './calculator.js';
 import './styles.css';
 
 const elements = {
@@ -118,10 +118,9 @@ function createSubjectRow(subject) {
     pair.className = 'inline-score-pair';
     const scoreInput = document.createElement('input');
     scoreInput.className = 'inline-earned';
-    scoreInput.type = 'number';
-    scoreInput.min = '0';
-    scoreInput.step = '0.1';
-    scoreInput.inputMode = 'decimal';
+    scoreInput.type = 'text';
+    scoreInput.inputMode = 'text';
+    scoreInput.spellcheck = false;
     scoreInput.placeholder = '得点';
     scoreInput.value = savedScore ?? '';
     scoreInput.dataset.key = key;
@@ -188,23 +187,29 @@ function createSubjectRow(subject) {
     }
 
     const scoreCells = [...scoreInputs.querySelectorAll('.inline-score-cell')];
-    const values = scoreCells.map((cell) => ({
-      scoreInput: cell.querySelector('.inline-earned'),
-      maxInput: cell.querySelector('.inline-max'),
-    }));
-    values.forEach(({ scoreInput, maxInput }, index) => {
-      const contribution = scoreInput.closest('.inline-score-cell').querySelector('em');
-      contribution.textContent = scoreInput.value === '' || maxInput.value === '' || Number(maxInput.value) <= 0
-        ? '得点 / 満点'
-        : `総合点へ +${formatNumber(knownComponents[index].weight * Number(scoreInput.value) / Number(maxInput.value))}点`;
+    const values = scoreCells.map((cell) => {
+      const scoreInput = cell.querySelector('.inline-earned');
+      const maxInput = cell.querySelector('.inline-max');
+      return {
+        scoreInput,
+        maxInput,
+        score: parseScoreExpression(scoreInput.value),
+        max: Number(maxInput.value),
+      };
     });
-    const invalid = values.some(({ scoreInput, maxInput }) => (
+    values.forEach(({ scoreInput, maxInput, score, max }, index) => {
+      const contribution = scoreInput.closest('.inline-score-cell').querySelector('em');
+      contribution.textContent = scoreInput.value === '' || maxInput.value === '' || !Number.isFinite(score) || max <= 0
+        ? '得点 / 満点'
+        : `総合点へ +${formatNumber(knownComponents[index].weight * score / max)}点`;
+    });
+    const invalid = values.some(({ scoreInput, maxInput, score, max }) => (
       scoreInput.value !== '' && maxInput.value !== ''
-      && (Number(scoreInput.value) < 0 || Number(maxInput.value) <= 0 || Number(scoreInput.value) > Number(maxInput.value))
+      && (!Number.isFinite(score) || score < 0 || max <= 0 || score > max)
     ));
-    values.forEach(({ scoreInput, maxInput }) => {
+    values.forEach(({ scoreInput, maxInput, score, max }) => {
       const isInvalid = scoreInput.value !== '' && maxInput.value !== ''
-        && (Number(scoreInput.value) < 0 || Number(maxInput.value) <= 0 || Number(scoreInput.value) > Number(maxInput.value));
+        && (!Number.isFinite(score) || score < 0 || max <= 0 || score > max);
       scoreInput.classList.toggle('is-invalid', isInvalid);
       maxInput.classList.toggle('is-invalid', isInvalid);
     });
@@ -219,8 +224,8 @@ function createSubjectRow(subject) {
 
     const earned = weightedPoints(knownComponents.map((component, index) => ({
       weight: component.weight,
-      score: Number(values[index].scoreInput.value),
-      max: Number(values[index].maxInput.value),
+      score: values[index].score,
+      max: values[index].max,
     })));
     results.replaceChildren(...thresholds.slice(0, 3).map(({ grade, value }) => {
       const result = calculateRequiredScore({ threshold: value, earned, examWeight: target.weight, examMax: SCORE_MAX, step: SCORE_STEP });

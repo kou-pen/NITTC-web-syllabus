@@ -1,10 +1,21 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { calculateRequiredScore, isExamComponent, validateThresholds, weightedPoints } from './calculator.js';
+import { calculateRequiredScore, isExamComponent, parseScoreExpression, validateThresholds, weightedPoints } from './calculator.js';
 import { DEFAULT_THRESHOLDS } from './calculator.js';
 
 test('weightedPoints converts raw component scores into overall points', () => {
   assert.equal(weightedPoints([{ weight: 35, score: 80, max: 100 }]), 28);
+});
+
+test('parses arithmetic expressions entered in score fields', () => {
+  assert.equal(parseScoreExpression('(48+27)'), 75);
+  assert.equal(parseScoreExpression('(48 + 27) / 2'), 37.5);
+  assert.equal(parseScoreExpression('10+5*3'), 25);
+  assert.equal(parseScoreExpression('（４８＋２７）'), 75);
+  assert.equal(parseScoreExpression(''), null);
+  assert.equal(Number.isNaN(parseScoreExpression('48+')), true);
+  assert.equal(Number.isNaN(parseScoreExpression('1/0')), true);
+  assert.equal(Number.isNaN(parseScoreExpression('alert(1)')), true);
 });
 
 test('calculates and rounds required exam score up to the score step', () => {
